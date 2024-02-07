@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;600&family=Mulish:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.con{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+}
+
+header nav h4 a{
+    font-family: 'Martel', serif;
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.sec1{
+    padding: 40px;
+    background-image: url(https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.sec1div1 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.sec1div1 p{
+    margin-bottom: 15px;
+}
+.sec1div2 img{
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow:  0px 0px 40px 0px rgba(39, 39, 39, 0.75);
+}
+
+.sec2div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.sec2div1 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid rgb(146, 146, 146);
+    margin: 20px 0px;
+    box-shadow:  0px 0px 20px 0px rgba(39, 39, 39, 0.75);
+}
+
+.sec2innerdiv{
+    width: 20%;
+    text-align: center;
+}
+
+.sec2innerdiv p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+}
+
+.sec3 p, .sec3 h3{
+    font-family: 'Mulish', sans-serif;
+    color: rgb(189, 189, 189);
+    font-size: xx-large;
+}
+
+.sec3{
+    margin-top: 40px;
+    padding: 40px;
+    height: 240px;
+}
+
+.sec4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: rgb(146, 146, 146);
+    border-radius: 20px;
+    margin: 40px auto;
+    box-shadow:  0px 0px 7px 0px rgba(39, 39, 39, 0.75);
+    color:rgb(255, 255, 255); ;
+}
+
+.sec2innerdiv img:hover{
+    scale: 1.11;
+    transition: .3s;
+}
+
